@@ -1,0 +1,13 @@
+# Click Counter App
+# Simple style for the page
+
+body{
+  text-align:center;
+  font-family:Arial;
+  margin-top:60px;
+}
+
+button{
+  padding:10px 20px;
+  font-size:16px;
+}
