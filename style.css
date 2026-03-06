@@ -1,13 +1,60 @@
-# Click Counter App
-# Simple style for the page
-
 body{
-  text-align:center;
-  font-family:Arial;
-  margin-top:60px;
+    margin:0;
+    font-family: Arial, sans-serif;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#ff7eb3,#65d6ff);
+}
+
+.container{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+#counter{
+    font-size:60px;
+    margin:20px;
+    font-weight:bold;
+    color:#333;
 }
 
 button{
-  padding:10px 20px;
-  font-size:16px;
+    border:none;
+    padding:15px 25px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+    margin:10px;
+    transition:0.2s;
+}
+
+#clickBtn{
+    background:#ff4d6d;
+    color:white;
+}
+
+#clickBtn:hover{
+    transform:scale(1.1);
+}
+
+#clickBtn:active{
+    transform:scale(0.9);
+}
+
+#resetBtn{
+    background:#555;
+    color:white;
+}
+
+#resetBtn:hover{
+    background:#333;
 }
